@@ -8,7 +8,9 @@ footer {
 .mainbox {
     border: 3px solid #ebebeb;
     width: 610px;
-    text-align: center;
+    text-align: right;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
+    margin: 50px;
 }
