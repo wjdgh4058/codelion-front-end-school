@@ -1,8 +1,9 @@
-footer {
-    text-align: center;
-    background-color: #1e1e1e;
-    color: #919191;
-    font-size: 12px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+.name-text {
+    font-size: 17px;
+    color: #7c7c7c;
+    font-weight: bold;
 }
 
 .mainbox {
@@ -13,4 +14,14 @@ footer {
     margin-right: auto;
     padding: 30px;
     margin: 50px;
+    box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.1);
 }
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    font-size: 12px;
+    padding: 20px;
+}
+
