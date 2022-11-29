@@ -49,13 +49,6 @@ h2 {
     text-align: right;
 }
 
-footer {
-    text-align: center;
-    background-color: #1e1e1e;
-    color: #919191;
-    font-size: 12px;
-    padding: 20px;
-}
 
 section {
     margin-bottom: 24px;
@@ -101,4 +94,12 @@ section {
 
 .sns-wrap {
     text-align: right;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    font-size: 12px;
+    padding: 20px;
 }
