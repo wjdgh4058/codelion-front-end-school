@@ -17,9 +17,30 @@ let q = {
 
 let result = {
   ISTJ: { animal: "하마", explain: "하마 설명", img: "./image/lion.jpg" },
+  ISFJ: { animal: "부엉이", explain: "부엉이 설명", img: "./image/lion.jpg" },
+  INFJ: { animal: "물소", explain: "물소 설명", img: "./image/lion.jpg" },
+  INTJ: { animal: "치타", explain: "치타 설명", img: "./image/lion.jpg" },
+  ISTP: {
+    animal: "나무늘보",
+    explain: "나무늘보 설명",
+    img: "./image/lion.jpg",
+  },
+  ISFP: { animal: "거북이", explain: "거북이 설명", img: "./image/lion.jpg" },
+  INFP: { animal: "코끼리", explain: "코끼리 설명", img: "./image/lion.jpg" },
+  INTP: { animal: "침팬지", explain: "침팬지 설명", img: "./image/lion.jpg" },
+  ESTP: { animal: "악어", explain: "악어 설명", img: "./image/lion.jpg" },
+  ESFP: { animal: "미어캣", explain: "미어캣 설명", img: "./image/lion.jpg" },
   ENFP: {
     animal: "멋쟁이 사자",
     explain: "멋쟁이 사자 설명",
+    img: "./image/lion.jpg",
+  },
+  ENTP: { animal: "태양새", explain: "태양새 설명", img: "./image/lion.jpg" },
+  ESTJ: { animal: "기린", explain: "기린 설명", img: "./image/lion.jpg" },
+  ESFJ: { animal: "고릴라", explain: "고릴라 설명", img: "./image/lion.jpg" },
+  ENFJ: {
+    animal: "카피바라",
+    explain: "카피바라 설명",
     img: "./image/lion.jpg",
   },
   ENTJ: { animal: "호랑이", explain: "호랑이 설명", img: "./image/lion.jpg" },
