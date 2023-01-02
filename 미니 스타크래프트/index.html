@@ -7,7 +7,7 @@
     <title>스타크래프트</title>
   </head>
   <body>
-    <h1>jQuery 이벤트</h1>
+    <h1>익명 함수</h1>
     <button id="click">클릭</button>
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
@@ -15,10 +15,9 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      hello = () => {
+      $("#click").click(function () {
         console.log("hello");
-      };
-      $("#click").click(hello);
+      });
     </script>
   </body>
 </html>
