@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>스타크래프트</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>익명 함수</h1>
-    <button id="click">클릭</button>
+    <h1 id="hp">HP : 3</h1>
+    <div class="background">
+      <img id="drone" src="./image/drone.png" alt="drone" />
+      <img id="spit" src="./image/spit.png" alt="spit" />
+      <img id="bunker" src="./image/bunker.png" alt="bunker" />
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
-    <script>
-      $("#click").click(function () {
-        console.log("hello");
-      });
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
